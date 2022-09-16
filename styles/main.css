@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "lalalandFont";
+  src: url("../font/Yasashii-W01-Regular.woff") format("woff");
+}
+body {
+  margin: 0;
+  background-image: url("../images/main-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#contained-title {
+  position: relative;
+  top: -80px;
+}
+#contained-title h1 {
+  font-family: "lalalandFont", serif;
+  font-size: 8em;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 5px 5px 10px#cc80ff;
+}
